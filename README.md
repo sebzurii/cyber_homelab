@@ -13,12 +13,12 @@ Hypervisor: UTM (QEMU-based, native Apple Silicon virtualization) Network mode: 
 
 Architecture
 ┌─────────────────────┐         ┌──────────────────────┐
-│   Kali Linux         │         │   Ubuntu Server        │
-│   (Attacker)          │ ------> │   (Victim)              │
-│   192.168.64.x         │         │   192.168.64.3           │
-│                        │         │                          │
-│   - nmap               │         │   - OpenSSH              │
-│   - hydra               │         │   - Docker → DVWA         │
-│   - Firefox              │         │   - system logs (auth.log) │
+│   Kali Linux        │         │   Ubuntu Server      │
+│   (Attacker)        │ ------> │   (Victim)           │
+│   192.168.64.x      │         │   192.168.64.3       │
+│                     │         │                      │
+│   - nmap            │         │   - OpenSSH          │
+│   - hydra           │         │   - Docker → DVWA    │
+│   - Firefox         │         │   - system logs      │
 └─────────────────────┘         └──────────────────────┘
               Isolated virtual network (UTM)
