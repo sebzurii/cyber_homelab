@@ -22,13 +22,3 @@ Architecture
 │   - Firefox              │         │   - system logs (auth.log) │
 └─────────────────────┘         └──────────────────────┘
               Isolated virtual network (UTM)
-Exercises
-
-Each folder below is a self-contained write-up: objective, steps taken, evidence collected, detection logic, and remediation.
-
-#	Exercise	Skills demonstrated
-01	SSH Brute-Force Detection	Log analysis, attack recognition, detection rule design
-02	(coming soon)	
-Why I built this
-
-I'm working toward my first cybersecurity role (SOC analyst / security analyst track) and wanted hands-on evidence of practical skills beyond certifications — specifically the ability to set up infrastructure, execute realistic attacks safely, read and interpret logs, and think through detection and remediation like an analyst would.
