@@ -14,14 +14,14 @@ Hypervisor: UTM (QEMU-based, native Apple Silicon virtualization) Network mode: 
 Architecture
 
 Kali Linux (Attacker):
-192.168.64.x
-Nmap
-Hydra
+192.168.64.x,
+Nmap,
+Hydra,
 Firefox
          
 
 Ubuntu Server (Victim):
-192.168.64.3
-OpenSSH
-Docker (DVWA)
+192.168.64.3,
+OpenSSH,
+Docker (DVWA),
 System logs (auth.log)        
